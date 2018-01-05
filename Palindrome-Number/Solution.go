@@ -1,13 +1,9 @@
-package main
+package isPalindrome
 
 import (
 	"fmt"
 	"strconv"
 )
-
-func main() {
-	fmt.Println(isPalindrome(1000021))
-}
 
 func isPalindrome(x int) bool {
 	if x < 0 {
